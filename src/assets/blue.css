@@ -1,0 +1,16 @@
+
+  :root {
+     --head-bg-color: rgba(10,32,56,0) ;/* 头背景 */
+    --head-logo-color: rgba(10,32,56,0) ;/* 头logo背景 */
+    --nav-color: rgba(19,131,231,0.2);/* 导航背景 */
+    --main-bg-color: rgba(19,131,231,0.2) ;
+    --main-bg-border:0; 
+
+    --color1: #00caff;
+    --color2: #00faa8;
+    --color3: #e3dd49;
+  }
+
+  #app ,.el-drawer{
+    background-image: url('~@/../static/indexbg.jpg');  background-size: cover; 
+  }

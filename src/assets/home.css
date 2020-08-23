@@ -1,0 +1,81 @@
+.home{
+  width: 100%; height: 100%; position: relative; overflow: hidden;background: #030574;
+}
+.map{
+ position: absolute; top: 0; left: 0; right:0; bottom: 0; z-index: 0; background: #132396;
+}
+.header{
+  width: 1920px; height: 74px;  pointer-events: none;  position: absolute; left: 0; top: 0;z-index:3; background-image: url('~@/../static/header.png'); display: flex; flex-direction: row; justify-content: space-between
+}
+.header .l{width: 300px; height: 40px; display: flex; align-items: center;justify-content:flex-end; margin-right: 20px;}
+.header .c{width: 750px; height: 74px; display: flex; justify-content: center; align-items: center}
+.header .r{width: 300px; height: 40px;display: flex; }
+.header .r .time{font-size:24px; color:#39d6fe; font-weight: bold; line-height: 40px;margin-left:20px}
+.header .r .year{font-size:13px; color:#39d6fe; line-height: 16px;display: flex; align-items: center; text-align: center; padding: 0 20px; border-right: 3px solid #142f8a; }
+
+
+
+
+.boxbg{
+background-color: rgba(7,15,119,0.5); 
+border:2px solid rgba(3,116,212,0.3); 
+position: relative;
+width: 100%;
+height: 100%;
+display: flex;
+}
+.boxbg .i1{
+width: 49px; height: 49px; position: absolute; right: -2px; bottom: -2px; background-image: url('~@/../static/border.png'); pointer-events:none
+}
+.boxbg .i2{
+width: 49px; height: 49px; position: absolute; left: -2px; bottom: -2px; background-image: url('~@/../static/border4.png'); pointer-events:none
+}
+.boxbg .i3{
+width: 49px; height: 49px; position: absolute; left: -2px; top: -2px; background-image: url('~@/../static/border3.png'); pointer-events:none
+}
+.boxbg .i4{
+width: 49px; height: 49px; position: absolute; right: -2px; top: -2px; background-image: url('~@/../static/border2.png'); pointer-events:none
+}
+.boxbg .title{
+width: 276px; height: 38px;background-image: url('~@/../static/titlebg.png'); left:50%; margin-left: -138px; display: flex; justify-content: center;  top:-2px;position: absolute; font-size: 22px; font-weight: bold;
+}
+
+.boxbg .title span{
+ background-image:-webkit-linear-gradient(bottom,#0077ff,#00eaff,#01acff); 
+ -webkit-background-clip:text; 
+ -webkit-text-fill-color:transparent;  padding-top: 3px;;
+}
+
+.boxbg .c{
+  position: absolute; left: 10px; top: 45px; right: 10px; bottom: 10px;
+}
+
+.boxbg .c .txtbg{
+  margin-top: 10px;
+  margin-left: 5px; flex-direction: row;
+  width: 222px; height: 111px; background-image: url('~@/../static/txtbg.png'); box-sizing: border-box; padding: 15px;display: flex;   justify-content: space-between; 
+}
+.boxbg .c .txtbg .t1{color:  var(--color1); font-size: 20px; margin-top: 5px;}
+.boxbg .c .txtbg .t2{color:  var(--color2); font-size: 28px; font-style: italic}
+.boxbg .c .txtbg .t2 i{color:  var(--color2); font-size: 16px; text-align: right; padding-left:5px;}
+
+
+.home .error{
+  background-image: url('~@/../static/error.png');width: 328px; height: 67px; position: absolute; right: 10px; top: 50px; z-index: 1; color: #fff; font-size: 18px; padding-left: 20px; box-sizing: border-box; cursor: pointer;
+}
+.home .error span{color:  var(--color3); font-size: 36px; padding: 0 5px;}
+
+
+
+.el-breadcrumb__separator, .el-breadcrumb__inner{
+  color: #029bd6 !important;
+  font-size: 16px  !important;
+  font-weight: 600;
+}
+
+
+.el-progress__text{color: #e8f60d !important; font-size: 16px !important;}
+.el-progress-circle__track{
+  stroke: rgba(0,0,0,0.15);
+}
+ 
